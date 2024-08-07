@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+}
+.nav {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+#logo-fylo {
+  width: 16%;
+}
+#Features {
+  margin-left: 55%;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(243, 87%, 12%);
+  font-size: 25px;
+  font-weight: 500;
+}
+#team {
+  margin-left: 5%;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(243, 87%, 12%);
+  font-size: 25px;
+  font-weight: 500;
+}
+#signin {
+  margin-left: 5%;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(243, 87%, 12%);
+  font-size: 25px;
+  font-weight: 500;
+}
+/*First page*/
+.first-page {
+  display: flex;
+  padding: 5%;
+}
+#illustration-one {
+  width: 45%;
+  position: absolute;
+  right: 5%;
+}
+.app-description {
+  width: 40%;
+  margin-top: 70px;
+}
+#all-files {
+  color: hsl(243, 87%, 12%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 1.5;
+}
+#all-files-description {
+  color: hsl(243, 87%, 12%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.input-button {
+  display: flex;
+  gap: 20px;
+}
+#email {
+  width: 55%;
+  height: 40px;
+  border: 1px solid rgb(90, 89, 89);
+  border-radius: 3px;
+  color: hsl(0, 0%, 75%);
+  font-family: "Lexend Deca", sans-serif;
+  padding-left: 30px;
+}
+#email::placeholder {
+  color: hsl(0, 0%, 75%);
+  font-family: "Lexend Deca", sans-serif;
+  padding-left: 30px;
+}
+
+#get-started {
+  width: 40%;
+  height: 42px;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#get-started:hover {
+  opacity: 0.7;
+}
+#text-inside-button {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*second page*/
+#curve-image {
+  margin-top: -160px;
+}
+.second-page {
+  margin-top: 15%;
+  width: 100%;
+  height: 900px;
+  background-color: #f9f9fe;
+  padding-left: 5%;
+}
+.inside-second-page {
+  display: flex;
+}
+
+.inside-second-page-text {
+  width: 53%;
+  margin-top: -40px;
+}
+#illustration-two {
+  width: 40%;
+  position: absolute;
+  right: 3%;
+}
+#stay-productive {
+  color: hsl(243, 87%, 12%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 1.5;
+}
+#stay-productive-description-one,
+#stay-productive-description-two {
+  color: hsl(243, 87%, 12%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+/*see how fylo works*/
+.see-how-fylo {
+  width: 25%;
+  display: flex;
+  gap: 10px;
+  border-bottom: solid hsl(170, 45%, 43%);
+  margin-top: 40px;
+}
+#see-how-fylo {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(170, 45%, 43%);
+  position: absolute;
+  margin-top: -23px;
+  cursor: pointer;
+}
+#see-how-fylo:hover {
+  opacity: 0.5;
+}
+#arrow-logo {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: -21px;
+}
+.ceo-word {
+  width: 50%;
+  height: 250px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 60px;
+  box-shadow: 1px 1px 10px 1px rgb(225, 220, 220);
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#quote {
+  width: 20px;
+  position: absolute;
+}
+#ceos-word {
+  color: hsl(243, 87%, 12%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+/*Avatar*/
+.avatar {
+  display: flex;
+  margin-top: -10px;
+  gap: 20px;
+}
+#avatar-ceo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 15px;
+}
+#ceo-name {
+  color: hsl(243, 87%, 12%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#ceo-presentation {
+  color: hsl(243, 87%, 12%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: -15px;
+}
+/*before the footer*/
+.footers-top {
+  width: 100%;
+  height: 200px;
+  background-color: hsl(238, 22%, 44%);
+  margin-top: -200px;
+  display: flex;
+  padding: 5%;
+}
+.text-get-early {
+  width: 40%;
+  margin-top: -40px;
+}
+#get-early {
+  color: hsl(240, 75%, 98%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 1.5;
+}
+#get-early-description {
+  color: hsl(240, 75%, 98%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.input-submit-two {
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+#email-two {
+  width: 70%;
+  height: 55px;
+  border: 1px solid rgb(90, 89, 89);
+  border-radius: 3px;
+  color: hsl(0, 0%, 75%);
+  font-family: "Lexend Deca", sans-serif;
+  padding-left: 30px;
+}
+
+#email-two::placeholder {
+  color: hsl(0, 0%, 75%);
+  font-family: "Lexend Deca", sans-serif;
+  padding-left: 10px;
+  font-size: 20px;
+}
+#get-started-for-free {
+  width: 40%;
+  height: 52px;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#get-started-for-free:hover {
+  background-color: #6e92fb;
+}
+/*footer*/
+footer {
+  padding-left: 5%;
+  background-color: hsl(243, 87%, 12%);
+  height: 300px;
+  padding-top: 30px;
+}
+.inside-footer {
+  margin-top: 30px;
+}
+#fylo-logo-footer {
+  filter: invert(100%) brightness(100) contrast(100%) grayscale(100%);
+}
+.contact-informations {
+  display: flex;
+  margin-top: 30px;
+  gap: 200px;
+}
+/*first row*/
+.phone {
+  display: flex;
+  gap: 20px;
+}
+.mail {
+  display: flex;
+  gap: 20px;
+}
+#phone-lohgo {
+  width: 20px;
+  height: 23px;
+  margin-top: -10px;
+}
+#mail-logo {
+  width: 25px;
+  height: 20px;
+  margin-top: 17px;
+}
+#phone-number {
+  color: hsl(0, 0%, 75%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+#mail-adresse {
+  color: hsl(0, 0%, 75%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+/*second row*/
+.second-row {
+  margin-top: -25px;
+}
+#a {
+  color: hsl(0, 0%, 75%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+#a:hover {
+  color: hsl(238, 22%, 44%);
+}
+/*third row*/
+.third-row {
+  margin-top: -25px;
+}
+.social-media {
+  margin-left: 40px;
+  display: flex;
+  gap: 20px;
+}
+#fb {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  
+}
+.fb {
+  border: 3px solid white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fb:hover #fb {
+    color: hsl(238, 22%, 44%);
+}
+.fb:hover {
+    border: 3px solid hsl(238, 22%, 44%);
+}
